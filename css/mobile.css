@@ -2,4 +2,11 @@
   .container {
     max-width: 428px;
   }
+  .our-team {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-team-background {
+    width: 100%;
+  }
 }

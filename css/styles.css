@@ -329,6 +329,7 @@ ul {
   gap: 24px;
 }
 .our-team-background {
+  width: 100%;
   flex-basis: calc((100% - 72px) / 4);
   text-align: center;
   background-color: var(--main-title-color);
