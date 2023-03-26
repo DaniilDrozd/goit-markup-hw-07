@@ -24,9 +24,14 @@ body {
   --main-title-color10: #f4f4fd;
   --main-title-color11: #e7e9fc;
 }
-img,
+
 svg {
   max-width: 100%;
+  display: block;
+  height: auto;
+}
+img {
+  width: 100%;
   display: block;
   height: auto;
 }
@@ -49,6 +54,7 @@ ul {
 }
 
 .container {
+  width: 100%;
   /* max-width: 1158px; */
   margin-left: auto;
   padding-left: 15px;
