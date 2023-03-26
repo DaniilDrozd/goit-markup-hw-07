@@ -6,7 +6,13 @@
     display: flex;
     flex-direction: column;
   }
-  .our-team-background {
-    width: 100%;
+  .our-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .our-team-list,
+  .our-team-social-list {
+    display: flex;
+    width: calc((100% - 72px) / 4);
   }
 }

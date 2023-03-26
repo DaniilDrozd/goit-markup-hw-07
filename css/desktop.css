@@ -1,7 +1,15 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1190px;
+  }
   /* Our team */
   .our-team {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .our-team-list,
+  .our-team-social-list {
+    display: flex;
+    width: calc((100% - 72px) / 4);
   }
 }
