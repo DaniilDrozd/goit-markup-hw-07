@@ -1,15 +1,16 @@
 @media screen and (min-width: 1158px) {
-  our team - .container {
+  .container {
     max-width: 1190px;
   }
   /* Our team */
-  .our-team {
+  .our-team,
+  .customers {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .our-team-list,
-  .our-team-social-list {
+  .our-team-list {
     display: flex;
     width: calc((100% - 72px) / 4);
   }
+  /* Our team */
 }

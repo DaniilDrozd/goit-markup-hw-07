@@ -2,6 +2,7 @@
   .container {
     max-width: 428px;
   }
+  /* our team */
   .our-team {
     display: flex;
     flex-direction: column;
@@ -10,9 +11,9 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .our-team-list,
-  .our-team-social-list {
+  .our-team-list {
     display: flex;
     width: calc((100% - 72px) / 4);
   }
+  /* our team */
 }

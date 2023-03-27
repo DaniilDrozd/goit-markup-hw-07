@@ -2,12 +2,13 @@
   .container {
     max-width: 734px;
   }
-  .our-team {
+  /* our team */
+  .our-team,
+  .customers {
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .our-team-list,
-  .our-team-social-list {
+  .our-team-list {
     display: flex;
     width: calc((100% - 24px) / 2);
   }
@@ -16,4 +17,5 @@
       max-width: 552px;
     }
   }
+  /*/ Out team */
 }
