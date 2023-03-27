@@ -1,16 +1,22 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
   /* our team */
   .our-team {
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .team-social-item {
+  .our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px 24px;
     flex-direction: row;
     display: flex;
-    width: calc((100% - 24px) / 2);
+  }
+  .our-team-background {
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   /* / Out team */
@@ -24,7 +30,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container-sm {
     max-width: 552px;
   }

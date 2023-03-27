@@ -295,12 +295,13 @@ ul {
   padding-bottom: 96px;
 }
 .our-team-social-list {
+  justify-content: center;
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 .team-social-item {
-  width: 100%;
+  width: 40px;
+  height: 40px;
 }
 
 .team-social-link {
@@ -334,7 +335,6 @@ ul {
   gap: 24px;
 }
 .our-team-background {
-  flex-basis: calc((100% - 72px) / 4);
   text-align: center;
   background-color: var(--main-title-color);
   background: var(--main-title-color);
