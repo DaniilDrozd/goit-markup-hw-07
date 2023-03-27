@@ -23,4 +23,7 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+  .customers-list {
+    width: calc((100% - 16px) / 2);
+  }
 }

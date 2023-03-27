@@ -27,7 +27,10 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .customers-list {
+    flex-wrap: nowrap;
+  }
   .customers-iteam {
-    width: calc((100% - 144px) / 6);
+    width: calc((100% - 120px) / 6);
   }
 }
