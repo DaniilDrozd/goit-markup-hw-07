@@ -231,7 +231,7 @@ ul {
   list-style: none;
 }
 .about-sizes {
-  display: flex;
+  display: none;
   background-color: var(--main-title-color10);
   border-radius: 4px;
   justify-content: center;
@@ -243,12 +243,14 @@ ul {
 .about-hidden {
 }
 .goal-list {
+  margin: 0 auto;
+  flex-direction: column;
   display: flex;
   list-style: none;
   gap: 24px;
 }
 .about-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: 100%;
 }
 .about-title {
   font-weight: 500;
@@ -258,6 +260,7 @@ ul {
   color: var(--main-title-color4);
 }
 .about-item-icon {
+  display: none;
 }
 .about-text {
   margin-top: 8px;

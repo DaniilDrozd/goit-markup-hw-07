@@ -1,11 +1,23 @@
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
+  /* about */
+  .about-sizes {
+    display: flex;
+  }
+  .about-item-icon {
+    display: flex;
+  }
+  .about-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  /*/about  */
+
   /* Our team */
   .our-team {
     padding-top: 120px;
@@ -33,4 +45,5 @@
   .customers-iteam {
     width: calc((100% - 120px) / 6);
   }
+  /* customers */
 }

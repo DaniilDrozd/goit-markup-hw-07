@@ -6,6 +6,24 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* about */
+
+  .goal-list {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .about-title {
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color4);
+  }
+  /*/ about */
   /* our team */
   .our-team {
     display: flex;
@@ -23,7 +41,8 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .customers-list {
+  .customers-iteam {
     width: calc((100% - 16px) / 2);
   }
+  /* customers */
 }

@@ -2,6 +2,21 @@
   .container {
     max-width: 768px;
   }
+  /* about */
+  .goal-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px 24px;
+    flex-direction: row;
+    display: flex;
+  }
+
+  }
+  .about-item {
+    flex-basis: calc((100% - 24px) / 4);
+  }
+  /*/ about */
   /* our team */
   .our-team {
     padding-top: 96px;
@@ -36,6 +51,7 @@
   .customers-iteam {
     width: calc((100% - 48px) / 3);
   }
+  /* customers */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
