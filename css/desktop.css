@@ -3,14 +3,24 @@
     max-width: 1190px;
   }
   /* Our team */
-  .our-team,
+  .our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-social-item {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: calc((100% - 72px) / 4);
+  }
+
+  /* Our team */
+
+  /* customers */
   .customers {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .our-team-list {
-    display: flex;
-    width: calc((100% - 72px) / 4);
+  .customers-iteam {
+    width: calc((100% - 144px) / 6);
   }
-  /* Our team */
 }

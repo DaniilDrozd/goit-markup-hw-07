@@ -1,21 +1,31 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 734px;
+    max-width: 736px;
   }
   /* our team */
-  .our-team,
+  .our-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .team-social-item {
+    flex-direction: row;
+    display: flex;
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* / Out team */
+  /* customers */
   .customers {
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .our-team-list {
-    display: flex;
-    width: calc((100% - 24px) / 2);
+  .customers-iteam {
+    width: 50%;
   }
-  @media screen and (min-width: 768px) and (max-width: 199px) {
-    .container-sm {
-      max-width: 552px;
-    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 199px) {
+  .container-sm {
+    max-width: 552px;
   }
-  /*/ Out team */
 }
