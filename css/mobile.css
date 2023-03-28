@@ -6,6 +6,18 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* Hero */
+  .hero-efectiv-sol {
+    margin: 0 auto;
+    margin-bottom: 48px;
+    text-align: left;
+    font-size: 56px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    max-width: 320px;
+  }
   /* about */
 
   .goal-list {
@@ -23,7 +35,6 @@
     letter-spacing: 0.02em;
     color: var(--main-title-color4);
   }
-  /*/ about */
   /* our team */
   .our-team {
     display: flex;
@@ -34,8 +45,6 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
-
-  /* our team */
   /*  customers*/
   .customers {
     padding-top: 96px;

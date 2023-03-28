@@ -6,6 +6,28 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* Hero */
+  .hero-efectiv-sol {
+    max-width: 496px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/dark-bg-desktop2x.png.jpg);
+    }
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/about-img-17.jpg.jpg);
+  }
   /* about */
   .about-sizes {
     display: flex;
