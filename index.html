@@ -27,40 +27,44 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <header class="hide header">
+    <header class="header">
       <div class="container header-container">
-        <nav class="header-navigation">
-          <a href="./portfolio.html" class="logo link"
-            >Web<span class="second-logo link">Studio</span>
-          </a>
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link active"
-                >Studio
-              </a>
-            </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Portfolio</a>
-            </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="header-address">
-          <ul class="header-list list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="header-email link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="header-tel link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <a href="./portfolio.html" class="logo link"
+          >Web<span class="second-logo link">Studio</span>
+        </a>
+        <div class="heder-nav-wrap">
+          <nav class="header-navigation">
+            <ul class="header-list list">
+              <li class="header-item">
+                <a href="./portfolio.html" class="header-link link active"
+                  >Studio
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="./portfolio.html" class="header-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-item">
+                <a href="./portfolio.html" class="header-link link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="header-address">
+            <ul class="header-list list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="header-email link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="header-tel link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
@@ -182,11 +186,20 @@
           <h2 class="our-tam-team">Our Team</h2>
           <ul class="our-team-list list">
             <li class="our-team-background">
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-4.jpg.jpg 1x,
+                    ./images/man-1st-2x.jpg      2x
+                  "
+                />
+                <img
+                  src="./images/about-img-4.jpg.jpg"
+                  alt="our team"
+                  width="264"
+                />
+              </picture>
               <img
-                srcset="
-                  ./images/about-img-4.jpg.jpg 1x,
-                  ./images/man-1st-2x.jpg      2x
-                "
                 src="./images/about-img-4.jpg.jpg"
                 alt="our team"
                 width="264"
@@ -241,15 +254,19 @@
               </div>
             </li>
             <li class="our-team-background">
-              <img
-                srcset="
-                  ./images/about-img-5.jpg.jpg 1x,
-                  ./images/man-2st-2x.jpg      2x
-                "
-                src="./images/about-img-5.jpg.jpg"
-                alt="our team"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-5.jpg.jpg 1x,
+                    ./images/man-2st-2x.jpg      2x
+                  "
+                />
+                <img
+                  src="./images/about-img-5.jpg.jpg"
+                  alt="our team"
+                  width="264"
+                />
+              </picture>
               <div class="our-team-sizes">
                 <h3 class="our-team-name-sec">Tom Ford</h3>
                 <p class="our-team-job">Frontend Developer</p>
@@ -299,15 +316,19 @@
               </div>
             </li>
             <li class="our-team-background">
-              <img
-                srcset="
-                  ./images/about-img-6.jpg.jpg 1x,
-                  ./images/girl-2x.jpg         2x
-                "
-                src="./images/about-img-6.jpg.jpg"
-                alt="our team"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-6.jpg.jpg 1x,
+                    ./images/girl-2x.jpg         2x
+                  "
+                />
+                <img
+                  src="./images/about-img-6.jpg.jpg"
+                  alt="our team"
+                  width="264"
+                />
+              </picture>
               <div class="our-team-sizes">
                 <h3 class="our-team-name-third">Camila Garcia</h3>
                 <p class="our-team-job">Marketing</p>
@@ -357,15 +378,19 @@
               </div>
             </li>
             <li class="our-team-background">
-              <img
-                srcset="
-                  ./images/about-img-7.jpg.jpg 1x,
-                  ./images/man-3st-2x.jpg      2x
-                "
-                src="./images/about-img-7.jpg.jpg"
-                alt="our team"
-                width="264"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/about-img-7.jpg.jpg 1x,
+                    ./images/man-3st-2x.jpg      2x
+                  "
+                />
+                <img
+                  src="./images/about-img-7.jpg.jpg"
+                  alt="our team"
+                  width="264"
+                />
+              </picture>
               <div class="our-team-sizes">
                 <h3 class="our-team-name-vier">Daniel Wilson</h3>
                 <p class="our-team-job">UI Designer</p>
