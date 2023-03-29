@@ -6,6 +6,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /* header */
+  .second-logo {
+    display: inline;
+    margin-right: 76px;
+    color: var(--main-title-color4);
+  }
   /* Hero */
   .hero-efectiv-sol {
     margin: 0 auto;

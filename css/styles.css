@@ -121,7 +121,6 @@ ul {
 }
 .second-logo {
   display: inline;
-  margin-right: 76px;
   color: var(--main-title-color4);
 }
 
@@ -204,10 +203,20 @@ ul {
   transform: translateX(0);
 }
 .menu-container .menu-toggle {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  margin-left: auto;
+  background: var(--main-title-color);
+
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #fff;
+  color: var(--main-title-color4);
 }
 .mobile-menu {
   padding: 0;

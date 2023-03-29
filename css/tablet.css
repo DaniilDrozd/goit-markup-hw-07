@@ -3,6 +3,22 @@
     max-width: 768px;
   }
   /* header */
+  .page-header .container {
+    padding: 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .logo {
+    padding-bottom: 38px;
+    flex-shrink: 0;
+  }
+  .second-logo {
+    display: inline;
+    margin-right: 120px;
+    color: var(--main-title-color4);
+  }
   .menu {
     display: none;
   }
@@ -10,6 +26,8 @@
     display: none;
   }
   .menu-container {
+    align-items: center;
+    display: flex;
     padding: 0;
     display: none;
     background-color: transparent;
