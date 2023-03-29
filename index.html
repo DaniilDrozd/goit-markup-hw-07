@@ -27,8 +27,10 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container header-container js-menu-container" >
+    <header class=" page-header header">
+      <div class="container header-container"
+       >
+       
         <a href="./portfolio.html" class="logo link"
           >Web<span class="second-logo link">Studio</span>
         </a>
@@ -63,21 +65,41 @@
               >
             </li>
           </ul>
-        <button type="button" class="header-burger-mob js-open-menu">
-          <svg class="burger" width="32" height="22">
+        <button type="button" 
+            class="menu-toggle js-open-menu" 
+            aria-expanded="false"
+            aria-controls="mobile-menu">
+          <svg class="burger" 
+          width="24"  
+          height="24"
+          fill="currentColor"   
+          viewBox="0 0 20 20">
             <use
               href="./images/symbol-defs-8.svg#icon-header-hamburger-1"
             ></use>
+            <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
           </svg>
         </button>
-        <div class="header-nav-wrap">
-          <button type="button"  class="header-btn-mob js-close-menu"  >
-            <svg class="modal-icon-mob" width=" 8" height=" 8">
+        <div class="menu-container js-menu-container" id="mobile-menu">
+          <button type="button"  class="menu-toggle js-close-menu"  >
+            <svg class="modal-icon-mob" fill="currentColor"
+            viewBox="0 0 20 20"
+            width="24"
+            height="24">
               <use href="./images/symbol-defs-4.svg#icon-Vector-1"></use>
+              <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
             </svg>
           </button>
           <nav class="header-navigation">
-            <ul class="header-list list">
+            <ul class="menu">
               <li class="header-item">
                 <a href="./portfolio.html" class="header-link link active"
                   >Studio
@@ -144,6 +166,13 @@
             </ul>
           </address>
         </div>
+        <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
         </div>
       </div>
     </header>
@@ -733,12 +762,5 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
