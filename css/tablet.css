@@ -3,6 +3,19 @@
     max-width: 768px;
   }
   /* header */
+  .header-burger-mob {
+    display: none;
+  }
+  .header-btn-mob {
+    display: none;
+  }
+  .header-nav-wrap {
+    display: none;
+    background-color: transparent;
+    max-width: unset;
+    height: unset;
+    position: static;
+  }
   .header-link {
     padding: 24px 0;
     position: relative;
