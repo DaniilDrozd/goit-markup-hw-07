@@ -124,7 +124,36 @@
   width: calc((100% - 48px) / 2);
 }
 /* customers */
-
+/* last */
+.section-last {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.last-block {
+  margin-left: 0;
+  margin-right: 24px;
+}
+.social-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 108px;
+}
+.last-social-text {
+  text-align: left;
+}
+.last-social {
+  padding-left: 24px;
+}
+..last-form {
+}
+.last-form-input {
+  margin-right: 24px;
+  width: 264px;
+  margin-bottom: 0;
+}
+.submit-btn {
+  margin: 0;
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container-sm {
     max-width: 552px;

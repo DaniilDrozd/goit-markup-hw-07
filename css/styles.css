@@ -108,6 +108,7 @@ ul {
   text-decoration: none;
 }
 .logo {
+  padding-bottom: 24px;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -570,10 +571,15 @@ ul {
 /* /customers */
 /* section last */
 .section-last {
-  padding-top: 100px;
-  padding-bottom: 100px;
-
+  padding-top: 96px;
+  padding-bottom: 96px;
   background-color: var(--main-title-color4);
+}
+.last-block {
+  width: 264px;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-last-last {
@@ -583,6 +589,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+  margin-bottom: 16px;
+  text-align: center;
 }
 .logoSec {
   margin-bottom: 16px;
@@ -603,8 +611,8 @@ ul {
   color: var(--main-title-color);
 }
 .last-social {
-  padding-left: 120px;
-  margin-left: 120px 0;
+  padding-left: 110px;
+  margin-left: 110px 0;
 }
 .last-social-text {
   font-weight: 500;
@@ -612,6 +620,8 @@ ul {
   line-height: 1.5;
   color: var(--main-title-color);
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .last-list {
   display: flex;
@@ -645,7 +655,8 @@ ul {
 }
 .last-list-icon {
 }
-
+.last-form {
+}
 .last-form-title {
   display: flex;
   margin-left: 80px;
@@ -659,17 +670,19 @@ ul {
   display: flex;
 }
 .last-form-input {
-  color: var(--main-title-color);
-  outline: none;
-  margin-left: 80px;
-  margin-right: 24px;
-  width: 264px;
+  display: block;
+  max-width: 398px;
   height: 40px;
-  padding: 8px 16px;
   border: 1px solid var(--main-title-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: transparent;
+  padding-left: 16px;
+  color: var(--main-title-color);
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .submit-btn {
   display: flex;
   justify-content: center;

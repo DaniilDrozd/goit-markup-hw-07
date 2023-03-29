@@ -82,4 +82,27 @@
     width: calc((100% - 120px) / 6);
   }
   /* customers */
+  /* */
+  .section-last {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .social-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 15px;
+  }
+  .last-block {
+    margin-right: 120px;
+  }
+  .last-social {
+    margin-right: 80px;
+  }
+  .last-form {
+    margin-left: 0;
+  }
+  .last-form-input {
+    width: 264px;
+    margin-bottom: 0;
+  }
 }
