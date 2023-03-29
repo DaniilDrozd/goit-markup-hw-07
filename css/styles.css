@@ -126,24 +126,22 @@ ul {
 }
 
 .header-list {
-  gap: 40px;
-  display: flex;
 }
 .header-item {
+  margin-bottom: 40px;
 }
 .header-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
-  position: relative;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color4);
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--main-title-color3);
+  color: var(--main-title-color6);
 }
 
 .header-email {
@@ -167,6 +165,59 @@ ul {
 .header-email:focus,
 .header-tel:focus {
   color: var(--main-title-color3);
+}
+.header-nav-wrap {
+  padding: 24px;
+  position: absolute;
+  width: 100%;
+  height: 796px;
+  left: 0px;
+  top: 0px;
+  background-color: var(--main-title-color);
+  height: 100vh;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-btn-mob {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  background: var(--main-title-color11);
+  border: 1px solid var(--main-title-color4);
+  display: block;
+}
+.modal-icon-mob {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  align-items: center;
+}
+.burger-list {
+  display: flex;
+  gap: 16px;
+}
+.burger-list-iteam {
+  display: flex;
+}
+.burger-list-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--main-title-color5);
+}
+.burger-list-icon {
+}
+.mob-social {
+  padding-left: 120px;
+  margin-left: 120px 0;
 }
 /* Header */
 /* hero*/
@@ -648,7 +699,7 @@ ul {
   align-items: center;
 }
 
-.header-list {
+.header-list-portfolio {
   gap: 40px;
   display: flex;
 }

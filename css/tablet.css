@@ -2,6 +2,17 @@
   .container {
     max-width: 768px;
   }
+  /* header */
+  .header-link {
+    padding: 24px 0;
+    position: relative;
+    font-size: 16px;
+    color: var(--main-title-color4);
+  }
+  .header-list {
+    gap: 40px;
+    display: flex;
+  }
   /* Hero */
   .hero-efectiv-sol {
     margin: 0 auto;
