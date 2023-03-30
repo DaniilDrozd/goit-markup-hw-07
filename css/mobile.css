@@ -6,6 +6,16 @@
     margin-left: auto;
     margin-right: auto;
   }
+  /*  */
+  .header-tel {
+    display: none;
+  }
+  .header-email {
+    display: none;
+  }
+  .header-link {
+    display: none;
+  }
   /* Hero */
   .hero-efectiv-sol {
     margin: 0 auto;

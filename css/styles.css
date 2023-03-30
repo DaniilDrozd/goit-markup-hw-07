@@ -80,8 +80,10 @@ ul {
   font-style: normal;
 }
 .header {
+  display: block;
   border-bottom: 2px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-link.active::after {
@@ -128,9 +130,16 @@ ul {
 .header-list {
 }
 .header-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 40px;
 }
 .header-link {
+  display: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
   font-weight: 500;
@@ -143,8 +152,34 @@ ul {
 .header-link:focus {
   color: var(--main-title-color6);
 }
+.header-tel-burger {
+  display: block;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
 
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--main-title-color2);
+}
+.header-email-burger {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 48px;
+  transition: color;
+  margin-right: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.02em;
+  color: var(--main-title-color2);
+}
+.header-list-burger {
+  padding-top: 284px;
+}
 .header-email {
+  display: none;
   transition: color;
   margin-right: 40px;
   font-size: 16px;
@@ -154,21 +189,23 @@ ul {
   color: var(--main-title-color2);
 }
 .header-tel {
+  display: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color2);
 }
+
 .header-email:hover,
 .header-tel:hover,
 .header-email:focus,
 .header-tel:focus {
   color: var(--main-title-color3);
 }
+.burger-open {
+}
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,7 +221,29 @@ ul {
 .menu-toggle:focus {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.js-open-menu {
+.header-link-burger {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color4);
+}
+.header-item-burger {
+  margin-bottom: 40px;
+}
+.burger-list-iteam {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu {
+}
+.tel-mob {
 }
 .burger {
 }
@@ -196,28 +255,25 @@ ul {
   height: 100vh;
   padding: 32px;
   background-color: var(--main-title-color);
-  z-index: 999;
+  z-index: 95;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+
+  max-height: 796px;
 }
 .menu-container.is-open {
   transform: translateX(0);
 }
 .menu-container .menu-toggle {
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
+  position: absolute;
+  top: 24px;
+  right: 19px;
   width: 24px;
   height: 24px;
-  display: flex;
-  margin-left: auto;
-  background: var(--main-title-color);
-
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  color: var(--main-title-color4);
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--main-title-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .mobile-menu {
   padding: 0;
@@ -241,7 +297,6 @@ ul {
   text-decoration: none;
 }
 .menu {
-  display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -256,21 +311,22 @@ ul {
   min-height: 80px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 
 .burger-list-link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--main-title-color6);
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: var(--main-title-color5);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.burger-list-icon {
+.burger-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .mob-social {
   padding-left: 120px;
