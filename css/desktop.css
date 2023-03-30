@@ -7,6 +7,12 @@
     margin-right: auto;
   }
   /* header */
+  .header {
+    display: block;
+    border-bottom: 2px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
   .second-logo {
     display: inline;
     margin-right: 76px;

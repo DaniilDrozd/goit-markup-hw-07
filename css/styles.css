@@ -75,6 +75,18 @@ ul {
   text-decoration: none;
 }
 /* Header */
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .header-address {
   font-style: normal;
@@ -225,7 +237,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color4);
