@@ -64,7 +64,6 @@
 .heder-poschta {
 }
 .burger-open {
-  display: none;
 }
 .page-header .container {
   padding: 0;
@@ -91,6 +90,7 @@
   display: none;
 }
 .menu-toggle {
+  display: none;
 }
 .header-container {
 }
