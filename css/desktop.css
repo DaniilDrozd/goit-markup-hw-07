@@ -10,8 +10,9 @@
   .header {
     display: block;
     border-bottom: 2px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+  }
+  .header {
+    display: block;
   }
   .second-logo {
     display: inline;
@@ -49,6 +50,15 @@
       url(../images/about-img-17.jpg.jpg);
   }
   /* about */
+  .about-text {
+    font-weight: 400;
+  }
+
+  .about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
   .about-sizes {
     display: flex;
   }
