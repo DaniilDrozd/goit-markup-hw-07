@@ -92,7 +92,17 @@
   .about-text {
     font-weight: 400;
   }
-
+  .about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color4);
+  }
+  .about-text {
+    margin-top: 8px;
+    font-size: 16px;
+  }
   .about-title {
     font-weight: 500;
     font-size: 20px;
@@ -170,5 +180,11 @@
   .last-social {
     padding-left: 110px;
     margin-left: 110px 0;
+  }
+  .last-form-wrap {
+    display: flex;
+  }
+  .submit-btn {
+    margin-right: 24px;
   }
 }

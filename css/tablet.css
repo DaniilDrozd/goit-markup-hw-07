@@ -243,6 +243,12 @@
   .submit-btn {
     margin: 0;
   }
+  .last-form-wrap {
+    display: flex;
+  }
+  .submit-btn {
+    margin-right: 24px;
+  }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .container-sm {
       max-width: 552px;

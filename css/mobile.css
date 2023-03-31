@@ -21,19 +21,25 @@
     max-width: 320px;
   }
   /* about */
-
+  .about-text {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color2);
+  }
   .goal-list {
     justify-content: center;
     text-align: center;
     width: 100%;
   }
   .about-title {
-    text-transform: capitalize;
+    font-weight: 700;
     text-align: center;
     padding-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--main-title-color4);
   }
@@ -58,3 +64,6 @@
   /* customers */
 }
 /* last */
+.last-form-input {
+  width: 398px;
+}
