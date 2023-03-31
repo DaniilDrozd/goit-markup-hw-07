@@ -201,13 +201,12 @@
   .customers-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
     justify-content: center;
-    gap: 64px 24px;
-    flex-direction: row;
-    display: flex;
+    align-items: center;
   }
   .customers-iteam {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 48px) / 3);
   }
   /* customers */
   /* last */

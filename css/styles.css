@@ -730,9 +730,6 @@ ul {
 .last-form {
 }
 .last-form-title {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding-top: 72px;
   text-align: center;
   font-weight: 500;
@@ -741,7 +738,10 @@ ul {
   color: var(--main-title-color);
   margin-bottom: 16px;
 }
-
+.form-mob {
+  display: flex;
+  flex-direction: column;
+}
 .last-form-input {
   margin-left: auto;
   color: var(--main-title-color);
