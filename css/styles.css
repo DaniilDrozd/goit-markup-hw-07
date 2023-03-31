@@ -56,7 +56,6 @@ ul {
 
 .container {
   width: 100%;
-  /* max-width: 1158px; */
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -76,13 +75,6 @@ ul {
   text-decoration: none;
 }
 /* Header */
-.container {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .header-container {
   display: flex;
   align-items: center;
@@ -736,7 +728,6 @@ ul {
 .last-form {
 }
 .last-form-title {
-  padding-top: 72px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -745,6 +736,7 @@ ul {
   margin-bottom: 16px;
 }
 .form-mob {
+  padding-top: 72px;
   display: flex;
   flex-direction: column;
 }
