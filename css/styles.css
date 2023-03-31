@@ -88,9 +88,6 @@ ul {
   justify-content: space-between;
 }
 
-.header-address {
-  font-style: normal;
-}
 .header {
   display: block;
   border-bottom: 2px;
@@ -113,9 +110,12 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+.header-address {
+  font-style: normal;
+  display: none;
+}
 .header-navigation {
-  align-items: center;
-  display: flex;
+  display: none;
 }
 .link {
   text-decoration: none;
