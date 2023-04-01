@@ -61,7 +61,7 @@ ul {
   padding-right: 15px;
   margin-right: auto;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 479px) {
   .modal {
     width: calc(100% - 2 * 15px);
   }
