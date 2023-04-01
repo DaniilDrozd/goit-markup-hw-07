@@ -752,6 +752,7 @@ ul {
   flex-direction: column;
 }
 .last-form-input {
+  margin-right: auto;
   margin-left: auto;
   color: var(--main-title-color);
   outline: none;
