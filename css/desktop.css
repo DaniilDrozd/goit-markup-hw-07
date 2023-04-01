@@ -231,4 +231,14 @@
   .header-link2 {
     padding: 25px 0;
   }
+  .portfolio-tablet-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .portfolio-list {
+    display: flex;
+  }
+  .portfolio-list-iteam {
+    flex-basis: calc((100% - 48px) / 3);
+  }
 }

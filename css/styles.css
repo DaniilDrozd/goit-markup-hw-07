@@ -199,6 +199,9 @@ ul {
 .header-tel:focus {
   color: var(--main-title-color3);
 }
+.studio {
+  color: var(--main-title-color3);
+}
 /* MOBILA */
 .burger-open {
   display: flex;
@@ -847,6 +850,7 @@ ul {
 }
 
 .header-list-portfolio {
+  display: none;
   gap: 40px;
   display: flex;
 }
@@ -965,6 +969,8 @@ ul {
 .portfolio-list-iteam {
   flex-basis: calc((100% - 48px) / 3);
 }
+.portfolio-mobila {
+}
 
 .works-title {
   border: 1px solid var(--main-title-color11);
@@ -978,7 +984,6 @@ ul {
 .portfolio-list {
   flex-wrap: wrap;
   gap: 24px;
-  display: flex;
   list-style: none;
 }
 .Project-title {

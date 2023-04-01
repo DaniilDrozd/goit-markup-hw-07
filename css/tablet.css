@@ -292,4 +292,38 @@
   .header-link2 {
     padding: 35px 0;
   }
+  .header-list-portfolio {
+    gap: 40px;
+    display: flex;
+  }
+  .portfolio-tablet-list {
+    padding-left: 121px;
+    gap: 0;
+    flex-direction: column;
+  }
+  .portfolio-list {
+    display: flex;
+  }
+  .portfolio-list-iteam {
+    flex-basis: calc((100% - 48px) / 2);
+  }
+  .portfolio-social-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 108px;
+  }
+
+  .last-form-title {
+    text-align: left;
+  }
+  .last-form-portfolio {
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-direction: row;
+  }
+  .portfolio-last-social {
+    padding-left: 0;
+    margin-left: 24px;
+  }
 }
