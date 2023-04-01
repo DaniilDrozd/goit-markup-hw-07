@@ -133,7 +133,10 @@
   }
 
   /* Our team */
-
+  /* doing */
+  .section-doing {
+    display: flex;
+  }
   /* customers */
   .customers {
     padding-top: 120px;

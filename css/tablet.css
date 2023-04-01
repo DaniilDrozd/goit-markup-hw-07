@@ -178,6 +178,10 @@
     flex-basis: calc((100% - 24px) / 2);
   }
   /*/ about */
+  /* doing */
+  .section-doing {
+    display: none;
+  }
   /* our team */
   .our-team {
     padding-top: 96px;

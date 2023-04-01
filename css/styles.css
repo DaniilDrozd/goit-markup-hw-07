@@ -467,7 +467,7 @@ ul {
 .section-doing {
   padding-top: 0;
   flex-wrap: wrap;
-  display: flex;
+  display: none;
   gap: 24px;
 }
 .doing-iteam {
