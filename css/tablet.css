@@ -223,6 +223,7 @@
     padding-bottom: 96px;
   }
   .last-block {
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 24px;
   }
@@ -238,12 +239,13 @@
     text-align: left;
   }
   .last-social {
-    padding-left: 24px;
+    margin-left: 0;
+    /* padding-left: 24px; */
   }
   .last-form {
   }
   .form-mob {
-    padding-top: 72px;
+    /* padding-top: 72px; */
     display: flex;
     flex-direction: column;
   }
@@ -258,6 +260,7 @@
     display: flex;
   }
   .submit-btn {
+    margin-top: 0;
     margin-right: 24px;
   }
   .last-form {
@@ -265,11 +268,28 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
+    flex-direction: row;
   }
-
+  .mobila {
+    text-align: left;
+    padding-left: 0px;
+  }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     .container-sm {
       max-width: 552px;
     }
+  }
+  /* 2 section */
+  /* portfolio */
+  .portfolio-navigation {
+    margin-top: 64px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .header-link2 {
+    padding: 35px 0;
   }
 }

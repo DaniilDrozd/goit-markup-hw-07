@@ -159,9 +159,7 @@
   .last-block {
     margin-right: 120px;
   }
-  .last-social {
-    margin-right: 80px;
-  }
+
   .last-form {
     display: flex;
     align-items: center;
@@ -181,8 +179,8 @@
     margin-left: 80px;
   }
   .last-social {
-    padding-left: 110px;
-    margin-left: 110px 0;
+    /* padding-left: 110px;
+    margin-left: 110px 0; */
   }
   .last-form-wrap {
     display: flex;
@@ -227,7 +225,10 @@
     flex-direction: column;
   }
   .submit-btn {
-    flex-direction: row;
     margin: 0;
+  }
+  /* p[ortfolio */
+  .header-link2 {
+    padding: 25px 0;
   }
 }

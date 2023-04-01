@@ -479,6 +479,7 @@ ul {
 
 /* section Our team */
 .our-team {
+  background: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -726,6 +727,8 @@ ul {
 .last-list-icon {
 }
 .last-form {
+  display: flex;
+  flex-direction: column;
 }
 .last-form-title {
   text-align: center;
@@ -821,6 +824,12 @@ ul {
   color: var(--main-title-color3);
 }
 .Header {
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  display: block;
+  border-bottom: 2px;
   padding: 24px 0;
 }
 
@@ -844,7 +853,7 @@ ul {
 
 .header-link2 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px 0;
+  padding: 25px 0;
   position: relative;
   font-weight: 500;
   font-size: 16px;
@@ -893,6 +902,7 @@ ul {
   padding-bottom: 24px;
 }
 .portfolio-navigation {
+  flex-wrap: wrap;
   display: flex;
   gap: 24px;
   justify-content: center;

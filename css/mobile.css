@@ -59,14 +59,22 @@
     width: calc((100% - 16px) / 2);
   }
   /* customers */
-}
-/* doing */
-.section-doing {
-  display: none;
-}
-.doing-tel-plan {
-}
-/* last */
-.last-form-input {
-  width: 100%;
+
+  /* doing */
+  .section-doing {
+    display: none;
+  }
+  .doing-tel-plan {
+  }
+  /* last */
+  .last-form-input {
+    width: 100%;
+  }
+  /* 2 SECTION */
+  .header-list-portfolio {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
 }
