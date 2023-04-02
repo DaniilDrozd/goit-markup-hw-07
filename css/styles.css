@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
 }
 :root {
+  --main-title-color02: #e7e9fc;
   --main-title-color: #ffffff;
   --main-title-color2: #434455;
   --main-title-color3: #4d5ae5;
@@ -133,7 +134,6 @@ ul {
 .header-list {
 }
 .header-item {
-  padding-bottom: 40px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -459,7 +459,7 @@ ul {
   display: none;
 }
 .about-text {
-  text-align: leftS;
+  text-align: left;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -670,7 +670,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
+  color: var(--main-title-color02);
   margin-bottom: 16px;
 }
 .logoSec {
@@ -761,11 +761,11 @@ ul {
   flex-direction: column;
 }
 .last-form-input {
+  max-width: 398px;
   margin-right: auto;
   margin-left: auto;
   color: var(--main-title-color);
   outline: none;
-  width: 264px;
   height: 40px;
   padding: 8px 16px;
   border: 1px solid var(--main-title-color);

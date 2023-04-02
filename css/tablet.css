@@ -1,6 +1,5 @@
 @media screen and (min-width: 768px) {
   .section {
-    padding: 120px 0;
   }
   .container {
     max-width: 768px;
@@ -44,13 +43,16 @@
   .page-header {
   }
   .header-tel {
-    font-size: 16px;
-    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 1.17;
     display: flex;
   }
   .header-email {
-    font-size: 16px;
-    line-height: 1.5;
+    padding-bottom: 12px;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 1.17;
     display: flex;
   }
   .heder-poschta {
@@ -129,12 +131,6 @@
     flex-direction: row;
   }
   .about-text {
-    text-align: left;
-    display: block;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
   }
   .about-title {
     font-weight: 700;
@@ -167,6 +163,7 @@
     flex-direction: row;
   }
   .our-team-background {
+    margin-bottom: 0;
     flex-basis: calc((100% - 24px) / 2);
   }
 
