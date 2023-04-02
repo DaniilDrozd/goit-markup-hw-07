@@ -9,14 +9,7 @@
   .hero-efectiv-sol {
   }
   /* about */
-  .about-text {
-    display: block;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-title-color2);
-  }
+
   .goal-list {
     text-align: center;
     width: 100%;
