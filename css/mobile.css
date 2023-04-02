@@ -18,7 +18,6 @@
     color: var(--main-title-color2);
   }
   .goal-list {
-    justify-content: center;
     text-align: center;
     width: 100%;
   }
