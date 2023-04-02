@@ -129,6 +129,7 @@
     flex-direction: row;
   }
   .about-text {
+    text-align: left;
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -180,7 +181,7 @@
     justify-content: center;
   }
   .customers-iteam {
-    width: calc((100% - 48px) / 3);
+    width: 168px;
   }
   /* customers */
   /* doing */
@@ -211,14 +212,12 @@
   }
   .last-social {
     margin-left: 0;
-    /* padding-left: 24px; */
   }
   .last-form {
   }
   .form-mob {
   }
   .last-form-input {
-    margin-right: 24px;
     width: 264px;
     margin-bottom: 0;
   }
